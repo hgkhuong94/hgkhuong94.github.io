@@ -10,7 +10,6 @@ var IPWebservices = "http://192.168.1.242:3000";
               
 document.addEventListener("DOMContentLoaded", function(event) {
     DetectRTC.load(function() {
-        alert(DetectRTC.isWebRTCSupported);
         if (DetectRTC.isWebRTCSupported == false) {
             alert('Please use Chrome, Firefox, iOS 11, Android 5 or higher, Safari 11 or higher');
         }
